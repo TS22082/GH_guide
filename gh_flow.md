@@ -2,6 +2,8 @@
 
 The first thing to do is to create a new branch and then move to that branch
 
+**In your terminal**
+
 ```
 git checkout -b <branchname>
 ```
@@ -14,7 +16,9 @@ git commit -m "added changes"
 git push
 ```
 
-Navigate to the github repo on your browser
+**In your browser**
+
+Navigate to your profile on github
 
 Click "create pull request"
 
