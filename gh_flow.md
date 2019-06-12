@@ -18,11 +18,13 @@ git push origin <branchname>
 
 **In your browser**
 
-Navigate to your profile on github
+Navigate to the code repo on your github
 
-Click "create pull request"
+Click Branches (next to code)
 
-Click "Accept changes" (This will pull the changes in you branch to master)
+Find your branch then click "create pull request"
+
+Click "Accept changes" (This will update the changes you made to the repos master)
 
 **In your terminal**
 
@@ -51,5 +53,3 @@ git branch -d <branchname>
 ```
 
 At this point you are on master, the code has been update, and you are ready to create a new branch to start working on a new feature.
-
-will this work????
