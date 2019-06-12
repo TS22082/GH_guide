@@ -51,5 +51,3 @@ git branch -d <branchname>
 ```
 
 At this point you are on master, the code has been update, and you are ready to create a new branch to start working on a new feature.
-
-This was added through the test branch
