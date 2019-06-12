@@ -13,7 +13,7 @@ Add you changes to the code then go through the push process
 ```
 git add *
 git commit -m "added changes"
-git push
+git push origin <branchname>
 ```
 
 **In your browser**
