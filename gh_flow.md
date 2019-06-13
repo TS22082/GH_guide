@@ -37,6 +37,8 @@ Find your branch then click "create pull request"
 
 Click "Accept changes" (This will update the changes you made to the repos master)
 
+# Pull changes
+
 **In your terminal**
 
 Change to the master branch
@@ -51,6 +53,8 @@ Then pull changes
 git pull
 ```
 
+# Clean Tree
+
 List branches
 
 ```
@@ -62,5 +66,11 @@ Delete the old branch (this keeps the tree clean)
 ```
 git branch -d <branchname>
 ```
+
+**Example:**
+
+![Alt Text](./assets/check_and_delete.gif)
+
+# Finishing Up
 
 At this point you are on master, the code has been update, and you are ready to create a new branch to start working on a new feature.
