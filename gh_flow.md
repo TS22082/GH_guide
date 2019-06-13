@@ -1,5 +1,9 @@
 # You're on master
 
+Example:
+
+![Starting Point](./assets/git_master.png)
+
 The first thing to do is to create a new branch and then move to that branch
 
 **In your terminal**
@@ -7,6 +11,12 @@ The first thing to do is to create a new branch and then move to that branch
 ```
 git checkout -b <branchname>
 ```
+
+Example:
+![Alt Text](./assets/new_branch.gif)
+&nbsp;&nbsp;
+
+# Add changes
 
 Add you changes to the code then go through the push process
 
