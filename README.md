@@ -74,3 +74,5 @@ git branch -d <branchname>
 # Finishing Up
 
 At this point you are on master, the code has been update, and you are ready to create a new branch to start working on a new feature.
+
+changes that will be deleted
