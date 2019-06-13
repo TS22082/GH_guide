@@ -37,6 +37,8 @@ Find your branch then click "create pull request"
 
 Click "Accept changes" (This will update the changes you made to the repos master)
 
+![Alt Text](./assets/GUI_new_example.gif)
+
 # Pull changes
 
 **In your terminal**
