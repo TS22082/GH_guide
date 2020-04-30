@@ -80,8 +80,6 @@ At this point you are on master, the code has been update, and you are ready to 
 
 changes that will be deleted
 
-
-
 # Versioning
 
 To go back to the old version of code you will need the hash of the commit with the versoin you need.
