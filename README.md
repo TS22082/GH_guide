@@ -102,5 +102,4 @@ git add *
 git push origin <branch name>
 ```
 
-navigate repo, you will see a new pull request. Accept the change and merge to master.
-
+Navigate repo, you will see a new pull request. Accept the change and merge to master.
