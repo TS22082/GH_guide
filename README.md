@@ -1,7 +1,6 @@
 
 # Jump to sections
-- [Branching](#branching)
-<br>
+- [Branching](#branching)<br>
 - [Versioning](#versioning)
 
 # Branching
