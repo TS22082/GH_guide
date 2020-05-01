@@ -1,4 +1,9 @@
 
+# Jump to sections
+- [Branching](#branching)
+<br>
+- [Versioning](#versioning)
+
 # Branching
 
 **Example:**
@@ -74,13 +79,7 @@ git branch -d <branchname>
 
 ![Alt Text](./assets/check_and_delete.gif)
 
-## Finishing Up
-
 At this point you are on master, the code has been update, and you are ready to create a new branch to start working on a new feature.
-
-changes that will be deleted
-
-
 
 # Versioning
 
