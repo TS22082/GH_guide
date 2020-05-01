@@ -82,7 +82,7 @@ At this point you are on master, the code has been update, and you are ready to 
 
 # Versioning
 
-To go back to the old version of code you will need the hash of the commit with the versoin you need.
+There are many ways to go back to an old version using git and github. I prefer to copy the version I want to a seperate branch and make a pull request because that method isnt destructive like "revert" is.
 
 ![Alt Text](./assets/commit.png)
 
