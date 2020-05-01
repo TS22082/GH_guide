@@ -2,7 +2,7 @@
 # Jump to sections
 - [Branching](#branching)<br>
 - [Versioning](#versioning)<br>
-- [Fork](#fork)
+- [Forking](#forking) (and making pull requests)
 
 # Branching
 
@@ -105,7 +105,7 @@ git push origin <branch name>
 
 Navigate repo, you will see a new pull request. Accept the change and merge to master.
 
-# Fork
+# Forking
 
 Anytime you want to add to someone elses code on gh you will fork the original code so you have a copy you can make changes to, then make a pull request to let the original creator you made a contribution they can accept or decline.
 
@@ -125,5 +125,5 @@ Navigate back to the repo on github (your account). You will see your version ha
 
 The original code owner will be notified there is a new pull request. After they accept it the code will e updated. 
 
-![Alt Text](./assets/added_change.gif)
+![Alt Text](./assets/added_change.png)
 
