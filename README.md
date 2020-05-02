@@ -123,7 +123,7 @@ Navigate back to the repo on github (your account). You will see your version ha
 
 ![Alt Text](./assets/pull_request.gif)
 
-The original code owner will be notified there is a new pull request. After they accept it the code will e updated. 
+The original code owner will be notified there is a new pull request. After they accept it the code will be updated. 
 
 ![Alt Text](./assets/added_change.png)
 
