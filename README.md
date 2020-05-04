@@ -41,7 +41,7 @@ After it has finished refresh your github repo page and it will be updated with 
 
 <h1 id="update">Updating Master</h1>
 
-Updating the master directly isn't typically recommended for team projects. See branching and for requests for working with github on teams.
+Updating the master directly isn't typically recommended for team projects. On a team you wan to agree on  a "git flow". For your own solo projects working on the master branch is okay. 
 
 run ```git status``` to see if there are any changes. If there are changes add, commit then push the changes.
 
