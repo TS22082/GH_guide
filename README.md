@@ -1,6 +1,7 @@
 
-# Jump to sections
+# Sections
 - [First Commit](#first)<br>
+- [Updating Mater](#update)<br>
 - [Branching](#branching)<br>
 - [Versioning](#versioning)<br>
 - [Forking with pull requests](#forkandpull)
@@ -37,6 +38,24 @@ Paste the line you just copied into the terminal then push to the origin master 
 
 
 After it has finished refresh your github repo page and it will be updated with the new code.
+
+<h1 id="update">Updating Master</h1>
+
+Updating the master directly isn't typically recommended for team projects. See branching and for requests for working with github on teams.
+
+run ```git status``` to see if there are any changes. If there are changes add, commit then push the changes.
+
+```
+git status
+git add *
+git commit -m <message in quotes>
+git push
+```
+
+Example with output:
+
+![Alt Text](./assets/update_master.png)
+
 
 
 # Branching
