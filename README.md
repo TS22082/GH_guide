@@ -1,7 +1,7 @@
 
 # Sections
 - [First Commit](#first)<br>
-- [Updating Mater](#update)<br>
+- [Updating Master](#update)<br>
 - [Branching](#branching)<br>
 - [Versioning](#versioning)<br>
 - [Forking with pull requests](#forkandpull)
