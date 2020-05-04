@@ -8,15 +8,18 @@
 
 <h1 id="first">First Commit</h1>
 
-At the very beginning of your project you should set it up on github and update (commit) frequently. 
+At the very beginning of your project you should set up a repo on github. 
 
-Check to make sure the folder isnt already set up as a repo by running  ```git status```. If you get back a message saying the folder isnt a repo run ```git init```
-
+Check to make sure the folder isn't already set up as a repo by running  ```git status```. If you get a message saying the folder isnt a repo run ```git init```
+<br><br>
 ![Alt Text](./assets/git_init.png)
 
+<br>
 Create a new file. For this example, I created a word.txt file.
+<br>
 
 Run ```git status``` from the root folder to see if there is an untracked file in the repo. Since its new we can assume there is.
+<br><br>
 
 ![Alt Text](./assets/untracked.png)
 
@@ -29,6 +32,7 @@ Commit your changes with ``` git commit -m <any message in quotes>```
 ![Alt Text](./assets/first_commit.png)
 
 From here you need to add a remote origin. To get the remote origin link you will need to create a project on github. Leave the checkbox "create with README.md" unchecked. Copy the line that contains ```git remote add origin <repo-link>```
+<br><br>
 
 ![Alt Text](./assets/first_commit.gif)
 
@@ -96,6 +100,7 @@ Click Branches (next to code)
 Find your branch then click "create pull request"
 
 Click "Accept changes" (This will update the changes you made to the repos master)
+<br><br>
 
 ![Alt Text](./assets/GUI_new_example.gif)
 
@@ -134,10 +139,13 @@ git branch -d <branchname>
 ![Alt Text](./assets/check_and_delete.gif)
 
 At this point you are on master, the code has been update, and you are ready to create a new branch to start working on a new feature.
+<br>
 
 # Versioning
 
 There are many ways to go back to an old version using git and github. I prefer to copy the version I want to a seperate branch and make a pull request because it will preserve your prior commits.
+
+<br>
 
 ![Alt Text](./assets/commit.png)
 
@@ -167,27 +175,37 @@ A friends repo that I will fork:
 
 ![Alt Text](./assets/fork.png)
 
+<br>
 After I fork the repository I will have a copy on my github account that I can clone and update.
+<br><br>
 
 ![Alt Text](./assets/clone.png)
 
 ![Alt Text](./assets/update.gif)
 
+<br>
 Navigate back to the repo on github (your account). You will see your version has been updated. If this is a change we want the original creator to include in ther code, make a pull request.
+<br><br>
 
 ![Alt Text](./assets/pull_request.gif)
 
+<br>
 The original code owner will be notified there is a new pull request. After they accept it the code will e updated. 
+<br><br>
 
 ![Alt Text](./assets/added_change.png)
 
-
+<br>
 If the original author makes a change you dont have on your fork, you will see a message telling you, you are behind their msater branch. To update your repo to reflect their changes you will need to make a pull request.
+<br><br>
 
 ![Alt Text](./assets/behind.png)
 
+<br>
 Initially you will see there is nothing to change. You need to swap the repos its compairing.
+<br><br>
 
 ![Alt Text](./assets/update_behind.gif)
 
-After you have switched the branches go through the process of commiting the pull request. After you have confirmed the code will be updated on your end.
+<br>
+After you have switched the repos its compairing create a pull request then add the changes. After you have confirmed the code will be updated on your forked version.
