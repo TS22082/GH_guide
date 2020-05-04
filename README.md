@@ -188,6 +188,6 @@ If the original author makes a change you dont have on your fork, you will see a
 
 Initially you will see there is nothing to change. You need to swap the repos its compairing.
 
-![Alt Text](./assets/update_behind.png)
+![Alt Text](./assets/update_behind.gif)
 
 After you have switched the branches go through the process of commiting the pull request. After you have confirmed the code will be updated on your end.
