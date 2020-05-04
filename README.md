@@ -44,9 +44,7 @@ Paste the line you just copied into the terminal then push to the origin master 
 After it has finished refresh your github repo page and it will be updated with the new code.
 
 <h1 id="update">Updating Master</h1>
-
-Updating the master directly isn't typically recommended for team projects. On a team you wan to agree on  a "git flow". For your own solo projects working on the master branch is okay. 
-
+ 
 run ```git status``` to see if there are any changes. If there are changes add, commit then push the changes.
 
 ```
@@ -169,7 +167,7 @@ Navigate repo, you will see a new pull request. Accept the change and merge to m
 
 <h1 id="forkandpull">Forking and Making Pull Requests</h1>
 
-Anytime you want to add to someone elses code on gh you will fork the original code so you have a copy you can make changes to, then make a pull request to let the original creator you made a contribution they can accept or decline.
+Anytime you want to contribute to someone elses code on gh you will fork the original code so you have a copy, make changes, then make a pull request to let the original creator you made a contribution they can accept or decline.
 
 A friends repo that I will fork:
 
