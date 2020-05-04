@@ -182,3 +182,12 @@ The original code owner will be notified there is a new pull request. After they
 ![Alt Text](./assets/added_change.png)
 
 
+If the original author makes a change you dont have on your fork, you will see a message telling you, you are behind their msater branch. To update your repo to reflect their changes you will need to make a pull request.
+
+![Alt Text](./assets/behind.png)
+
+Initially you will see there is nothing to change. You need to swap the repos its compairing.
+
+![Alt Text](./assets/update_behind.png)
+
+After you have switched the branches go through the process of commiting the pull request. After you have confirmed the code will be updated on your end.
