@@ -1,6 +1,7 @@
-
 # Sections
+
 - [First Commit](#first)<br>
+- [Ignoring files](#git-ignore)<br>
 - [Updating Master](#update)<br>
 - [Branching](#branching)<br>
 - [Versioning](#versioning)<br>
@@ -8,9 +9,9 @@
 
 <h1 id="first">First Commit</h1>
 
-At the very beginning of your project you should set up a repo on github. 
+At the very beginning of your project you should set up a repo on github.
 
-Check to make sure the folder isn't already set up as a repo by running  ```git status```. If you get a message saying the folder isnt a repo run ```git init```
+Check to make sure the folder isn't already set up as a repo by running `git status`. If you get a message saying the folder isnt a repo run `git init`
 <br><br>
 ![Alt Text](./assets/git_init.png)
 
@@ -18,30 +19,50 @@ Check to make sure the folder isn't already set up as a repo by running  ```git 
 Create a new file. For this example, I created a word.txt file.
 <br>
 
-Run ```git status``` from the root folder to see if there is an untracked file in the repo. Since its new we can assume there is.
+Run `git status` from the root folder to see if there is an untracked file in the repo. Since its new we can assume there is.
 <br><br>
 
 ![Alt Text](./assets/untracked.png)
 
-To track all the files in the repo run ```git add *```
+To track all the files in the repo run `git add *`
 
 ![Alt Text](./assets/add_all.png)
 
-Commit your changes with ``` git commit -m <any message in quotes>```
+Commit your changes with `git commit -m <any message in quotes>`
 
 ![Alt Text](./assets/first_commit.png)
 
-From here you need to add a remote origin. To get the remote origin link you will need to create a project on github. Leave the checkbox "create with README.md" unchecked. Copy the line that contains ```git remote add origin <repo-link>```
+From here you need to add a remote origin. To get the remote origin link you will need to create a project on github. Leave the checkbox "create with README.md" unchecked. Copy the line that contains `git remote add origin <repo-link>`
 <br><br>
 
 ![Alt Text](./assets/first_commit.gif)
 
-Paste the line you just copied into the terminal then push to the origin master with ```git push -u origin master```
+Paste the line you just copied into the terminal then push to the origin master with `git push -u origin master`
 
 ![Alt Text](./assets/add_remote_push.png)
 
-
 After it has finished refresh your github repo page and it will be updated with the new code.
+
+<h1 id="git-ignore">Ignoring files</h1>
+
+You may need to ignore files or folders so they are not accidentaly added to github. An example might be "node_modules" or a file with sensitive information like an api_key.
+<br>
+
+- In the root directory create a .gitignore file.
+- inside the .gitignore file add the paths you want ignored.
+
+**_note_** it's important to ignore any files or folders you dont want on github BEFORE adding or commiting them
+<br>
+<br>
+example .gitignore
+
+```
+node_modules
+package-lock.json
+.env
+```
+
+If you added the paths to the .gitignore file before adding them they will not be tracked anymore. Confirm with `git status`
 
 <h1 id="update">Updating Master</h1>
  
@@ -57,8 +78,6 @@ git push
 Example with output:
 
 ![Alt Text](./assets/update_master.png)
-
-
 
 # Branching
 
@@ -153,7 +172,7 @@ There are many ways to go back to an old version using git and github. I prefer 
 git checkout -b <branch name> <commit hash>
 ```
 
-This will create a new branch with the old version of the code. 
+This will create a new branch with the old version of the code.
 
 Add a comment or make some minor change so you can add.
 
