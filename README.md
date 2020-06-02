@@ -1,11 +1,32 @@
 # Sections
 
-- [First Commit](#first)<br>
 - [Ignoring files](#git-ignore)<br>
+- [First Commit](#first)<br>
 - [Updating Master](#update)<br>
 - [Branching](#branching)<br>
 - [Versioning](#versioning)<br>
 - [Forking with pull requests](#forkandpull)
+
+<h1 id="git-ignore">Ignoring files</h1>
+
+You may need to ignore files or folders so they are not accidentaly added to github. An example might be "node_modules" or a file with sensitive information like an api_key.
+<br>
+
+- In the root directory create a .gitignore file.
+- inside the .gitignore file add the paths you want ignored.
+
+**_note_** it's important to ignore any files or folders you dont want on github BEFORE adding or commiting them
+<br>
+<br>
+example .gitignore
+
+```
+node_modules
+package-lock.json
+.env
+```
+
+If you added the paths to the .gitignore file before adding them they will not be tracked anymore. Confirm with `git status`
 
 <h1 id="first">First Commit</h1>
 
@@ -42,27 +63,6 @@ Paste the line you just copied into the terminal then push to the origin master 
 ![Alt Text](./assets/add_remote_push.png)
 
 After it has finished refresh your github repo page and it will be updated with the new code.
-
-<h1 id="git-ignore">Ignoring files</h1>
-
-You may need to ignore files or folders so they are not accidentaly added to github. An example might be "node_modules" or a file with sensitive information like an api_key.
-<br>
-
-- In the root directory create a .gitignore file.
-- inside the .gitignore file add the paths you want ignored.
-
-**_note_** it's important to ignore any files or folders you dont want on github BEFORE adding or commiting them
-<br>
-<br>
-example .gitignore
-
-```
-node_modules
-package-lock.json
-.env
-```
-
-If you added the paths to the .gitignore file before adding them they will not be tracked anymore. Confirm with `git status`
 
 <h1 id="update">Updating Master</h1>
  
