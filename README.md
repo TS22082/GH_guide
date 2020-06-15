@@ -15,9 +15,6 @@ You may need to ignore files or folders so they are not accidentaly added to git
 - In the root directory create a .gitignore file.
 - inside the .gitignore file add the paths you want ignored.
 
-**_note_** it's important to ignore any files or folders you dont want on github BEFORE adding or commiting them
-<br>
-<br>
 example .gitignore
 
 ```
@@ -26,7 +23,12 @@ package-lock.json
 .env
 ```
 
-If you added the paths to the .gitignore file before adding them they will not be tracked anymore. Confirm with `git status`
+The files and folders will not be tracked anymore. Confirm with `git status`
+
+**_note_** it's important to ignore any files or folders you dont want on github BEFORE adding or commiting them.
+
+If you did add and commit before setting up the .giignore file run:
+`git rm -r --cached *`
 
 <h1 id="first">First Commit</h1>
 
